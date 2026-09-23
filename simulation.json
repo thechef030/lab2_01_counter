@@ -1,5 +1,7 @@
 {
-  "sources": ["src/design.v"],
-  "testbench": "sim/tb_design.v",
-  "simulation_top": "tb_design"
+  "sources": ["src/counter4.v",
+  "src/input_frontend.v",
+  "src/lab2_counter.v"],
+  "testbench": "sim/tb_counter4.sv",
+  "simulation_top": "tb_counter4"
 }
